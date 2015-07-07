@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		520ED2C31B4B69C7009896D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520ED2C21B4B69C7009896D4 /* AppDelegate.swift */; };
+		520ED2C51B4B69C7009896D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520ED2C41B4B69C7009896D4 /* ViewController.swift */; };
+		520ED2C81B4B69C7009896D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520ED2C61B4B69C7009896D4 /* Main.storyboard */; };
+		520ED2CA1B4B69C7009896D4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 520ED2C91B4B69C7009896D4 /* Images.xcassets */; };
+		520ED2CD1B4B69C7009896D4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 520ED2CB1B4B69C7009896D4 /* LaunchScreen.xib */; };
+		520ED2D91B4B69C7009896D4 /* Whats_BeefTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520ED2D81B4B69C7009896D4 /* Whats_BeefTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		520ED2D31B4B69C7009896D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 520ED2B51B4B69C6009896D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 520ED2BC1B4B69C6009896D4;
+			remoteInfo = "Whats Beef";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		520ED2BD1B4B69C7009896D4 /* Whats Beef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whats Beef.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		520ED2C11B4B69C7009896D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		520ED2C21B4B69C7009896D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		520ED2C41B4B69C7009896D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		520ED2C71B4B69C7009896D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		520ED2C91B4B69C7009896D4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		520ED2CC1B4B69C7009896D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		520ED2D21B4B69C7009896D4 /* Whats BeefTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Whats BeefTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		520ED2D71B4B69C7009896D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		520ED2D81B4B69C7009896D4 /* Whats_BeefTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whats_BeefTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		520ED2BA1B4B69C6009896D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520ED2CF1B4B69C7009896D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		520ED2B41B4B69C6009896D4 = {
+			isa = PBXGroup;
+			children = (
+				520ED2BF1B4B69C7009896D4 /* Whats Beef */,
+				520ED2D51B4B69C7009896D4 /* Whats BeefTests */,
+				520ED2BE1B4B69C7009896D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		520ED2BE1B4B69C7009896D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				520ED2BD1B4B69C7009896D4 /* Whats Beef.app */,
+				520ED2D21B4B69C7009896D4 /* Whats BeefTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		520ED2BF1B4B69C7009896D4 /* Whats Beef */ = {
+			isa = PBXGroup;
+			children = (
+				520ED2C21B4B69C7009896D4 /* AppDelegate.swift */,
+				520ED2C41B4B69C7009896D4 /* ViewController.swift */,
+				520ED2C61B4B69C7009896D4 /* Main.storyboard */,
+				520ED2C91B4B69C7009896D4 /* Images.xcassets */,
+				520ED2CB1B4B69C7009896D4 /* LaunchScreen.xib */,
+				520ED2C01B4B69C7009896D4 /* Supporting Files */,
+			);
+			path = "Whats Beef";
+			sourceTree = "<group>";
+		};
+		520ED2C01B4B69C7009896D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				520ED2C11B4B69C7009896D4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		520ED2D51B4B69C7009896D4 /* Whats BeefTests */ = {
+			isa = PBXGroup;
+			children = (
+				520ED2D81B4B69C7009896D4 /* Whats_BeefTests.swift */,
+				520ED2D61B4B69C7009896D4 /* Supporting Files */,
+			);
+			path = "Whats BeefTests";
+			sourceTree = "<group>";
+		};
+		520ED2D61B4B69C7009896D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				520ED2D71B4B69C7009896D4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		520ED2BC1B4B69C6009896D4 /* Whats Beef */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520ED2DC1B4B69C7009896D4 /* Build configuration list for PBXNativeTarget "Whats Beef" */;
+			buildPhases = (
+				520ED2B91B4B69C6009896D4 /* Sources */,
+				520ED2BA1B4B69C6009896D4 /* Frameworks */,
+				520ED2BB1B4B69C6009896D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Whats Beef";
+			productName = "Whats Beef";
+			productReference = 520ED2BD1B4B69C7009896D4 /* Whats Beef.app */;
+			productType = "com.apple.product-type.application";
+		};
+		520ED2D11B4B69C7009896D4 /* Whats BeefTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520ED2DF1B4B69C7009896D4 /* Build configuration list for PBXNativeTarget "Whats BeefTests" */;
+			buildPhases = (
+				520ED2CE1B4B69C7009896D4 /* Sources */,
+				520ED2CF1B4B69C7009896D4 /* Frameworks */,
+				520ED2D01B4B69C7009896D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				520ED2D41B4B69C7009896D4 /* PBXTargetDependency */,
+			);
+			name = "Whats BeefTests";
+			productName = "Whats BeefTests";
+			productReference = 520ED2D21B4B69C7009896D4 /* Whats BeefTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		520ED2B51B4B69C6009896D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "iOS applicant";
+				TargetAttributes = {
+					520ED2BC1B4B69C6009896D4 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					520ED2D11B4B69C7009896D4 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 520ED2BC1B4B69C6009896D4;
+					};
+				};
+			};
+			buildConfigurationList = 520ED2B81B4B69C6009896D4 /* Build configuration list for PBXProject "Whats Beef" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 520ED2B41B4B69C6009896D4;
+			productRefGroup = 520ED2BE1B4B69C7009896D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				520ED2BC1B4B69C6009896D4 /* Whats Beef */,
+				520ED2D11B4B69C7009896D4 /* Whats BeefTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		520ED2BB1B4B69C6009896D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520ED2C81B4B69C7009896D4 /* Main.storyboard in Resources */,
+				520ED2CD1B4B69C7009896D4 /* LaunchScreen.xib in Resources */,
+				520ED2CA1B4B69C7009896D4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520ED2D01B4B69C7009896D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		520ED2B91B4B69C6009896D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520ED2C51B4B69C7009896D4 /* ViewController.swift in Sources */,
+				520ED2C31B4B69C7009896D4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520ED2CE1B4B69C7009896D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520ED2D91B4B69C7009896D4 /* Whats_BeefTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		520ED2D41B4B69C7009896D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 520ED2BC1B4B69C6009896D4 /* Whats Beef */;
+			targetProxy = 520ED2D31B4B69C7009896D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		520ED2C61B4B69C7009896D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				520ED2C71B4B69C7009896D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		520ED2CB1B4B69C7009896D4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				520ED2CC1B4B69C7009896D4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		520ED2DA1B4B69C7009896D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		520ED2DB1B4B69C7009896D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		520ED2DD1B4B69C7009896D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Whats Beef/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		520ED2DE1B4B69C7009896D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Whats Beef/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		520ED2E01B4B69C7009896D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Whats BeefTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Whats Beef.app/Whats Beef";
+			};
+			name = Debug;
+		};
+		520ED2E11B4B69C7009896D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Whats BeefTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Whats Beef.app/Whats Beef";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		520ED2B81B4B69C6009896D4 /* Build configuration list for PBXProject "Whats Beef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520ED2DA1B4B69C7009896D4 /* Debug */,
+				520ED2DB1B4B69C7009896D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		520ED2DC1B4B69C7009896D4 /* Build configuration list for PBXNativeTarget "Whats Beef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520ED2DD1B4B69C7009896D4 /* Debug */,
+				520ED2DE1B4B69C7009896D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		520ED2DF1B4B69C7009896D4 /* Build configuration list for PBXNativeTarget "Whats BeefTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520ED2E01B4B69C7009896D4 /* Debug */,
+				520ED2E11B4B69C7009896D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 520ED2B51B4B69C6009896D4 /* Project object */;
+}
