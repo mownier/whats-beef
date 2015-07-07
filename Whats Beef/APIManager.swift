@@ -8,6 +8,16 @@
 
 import UIKit
 
-class APIManager: NSObject {
-   
+class APIManager: AFHTTPSessionManager  {
+    
+    class var sharedManager: APIManager {
+        struct Static {
+            static var onceToken: dispatch_once_t = 0
+            static var instance: APIManager? = nil
+        }
+        dispatch_once(&Static.onceToken) {
+            Static.instance = APIManager(baseURL: NSURL(string: "http://www.whatsbeef.net"), sessionConfiguration: nil)
+        }
+        return Static.instance!
+    }
 }
