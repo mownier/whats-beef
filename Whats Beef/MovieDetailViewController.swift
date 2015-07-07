@@ -20,15 +20,32 @@ class MovieDetailViewController: UIViewController {
     @IBOutlet weak var summaryTextView: UITextView!
     
     
+    override func loadView() {
+        super.loadView()
+        self.setupNavigationBar()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        self.title = self.movie?.name
-        
         self.nameLabel.text = self.movie?.name
         self.setTime(self.movie!.startTime, end: self.movie!.endTime)
         self.setRating(self.movie!.rating)
+    }
+    
+    private func setupNavigationBar() {
+        self.title = self.movie?.name
+        let back: UIBarButtonItem = UIBarButtonItem(image: UIImage(named: "arrow-back"), style: .Plain, target: self, action: "back")
+        
+        let negativeSpacer: UIBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.FixedSpace, target: nil, action: nil)
+        negativeSpacer.width = -15
+        
+        self.navigationItem.leftBarButtonItems = [negativeSpacer, back]
+    }
+    
+    func back() {
+        self.navigationController?.popViewControllerAnimated(true)
     }
 
     override func didReceiveMemoryWarning() {
@@ -44,6 +61,4 @@ class MovieDetailViewController: UIViewController {
         let image = UIImage(named: rating)
         self.ratingImageView.image = image
     }
-    
-
 }
