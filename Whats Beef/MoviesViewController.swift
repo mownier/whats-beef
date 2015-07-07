@@ -66,7 +66,12 @@ class MoviesViewController: UITableViewController {
     }
     
     private func setCellMovieRating(cell: MovieTableViewCell, rating: String) {
-        let image = UIImage(named: rating)
+        var image: UIImage? = nil
+        if rating == "NR" || rating == "" {
+            image = UIImage(named: "NR")
+        } else {
+            image = UIImage(named: rating)
+        }
         cell.ratingImageView.image = image
     }
     
