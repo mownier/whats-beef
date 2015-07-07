@@ -9,5 +9,8 @@
 #ifndef Whats_Beef_Whats_Beef_Bridging_Header_h
 #define Whats_Beef_Whats_Beef_Bridging_Header_h
 
+#import <AFNetworking/AFNetworking.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <SVPullToRefresh/SVPullToRefresh.h>
 
 #endif
