@@ -6,8 +6,22 @@
 //  Copyright (c) 2015 iOS applicant. All rights reserved.
 //
 
-import Cocoa
-
 class MovieModel: AnyObject {
-
+    
+    var name: String
+    var startTime: String
+    var endTime: String
+    var channel: String
+    var rating: String
+    
+    init() {
+        self.name = ""
+        self.startTime = ""
+        self.endTime = ""
+        self.channel = ""
+        self.rating = ""
+    }
+    
+    
+    
 }
