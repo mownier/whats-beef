@@ -10,10 +10,25 @@ import UIKit
 
 class MovieDetailViewController: UIViewController {
 
+    var movie: MovieModel?
+    
+    @IBOutlet weak var coverImageView: UIImageView!
+    @IBOutlet weak var blurImageView: UIView!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var timeLabel: UILabel!
+    @IBOutlet weak var ratingImageView: UIImageView!
+    @IBOutlet weak var summaryTextView: UITextView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.title = self.movie?.name
+        
+        self.nameLabel.text = self.movie?.name
+        self.setTime(self.movie!.startTime, end: self.movie!.endTime)
+        self.setRating(self.movie!.rating)
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,15 +36,14 @@ class MovieDetailViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    private func setTime(start: String, end: String) {
+        self.timeLabel.text = "\(start) - \(end)"
     }
-    */
+    
+    private func setRating(rating: String) {
+        let image = UIImage(named: rating)
+        self.ratingImageView.image = image
+    }
+    
 
 }
