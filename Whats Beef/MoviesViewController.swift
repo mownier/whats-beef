@@ -10,7 +10,7 @@ import UIKit
 
 class MoviesViewController: UITableViewController {
 
-    var pageCounter: Int = 1
+    var pageCounter: Int = 0
     
     var items: [[MovieModel]] = [[MovieModel]]()
     
@@ -29,7 +29,7 @@ class MoviesViewController: UITableViewController {
         let manager = APIManager.sharedManager
         let urlString = "wabz/guide.php"
         manager.GET(urlString, parameters: ["start": page], success: { (task, response) -> Void in
-            if page == 1 {
+            if page == 0 {
                 self.items.removeAll(keepCapacity: false)
             }
             let movies = self.parse(response)
