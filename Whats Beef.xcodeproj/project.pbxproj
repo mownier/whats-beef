@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CFD8133F960CDD59171CA7E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 759B6D9973319B06953007D7 /* libPods.a */; };
 		520ED2C31B4B69C7009896D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520ED2C21B4B69C7009896D4 /* AppDelegate.swift */; };
 		520ED2C51B4B69C7009896D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520ED2C41B4B69C7009896D4 /* ViewController.swift */; };
 		520ED2C81B4B69C7009896D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520ED2C61B4B69C7009896D4 /* Main.storyboard */; };
-		520ED2CA1B4B69C7009896D4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 520ED2C91B4B69C7009896D4 /* Images.xcassets */; };
 		520ED2CD1B4B69C7009896D4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 520ED2CB1B4B69C7009896D4 /* LaunchScreen.xib */; };
 		520ED2D91B4B69C7009896D4 /* Whats_BeefTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520ED2D81B4B69C7009896D4 /* Whats_BeefTests.swift */; };
+		520ED2E51B4B6F86009896D4 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520ED2E41B4B6F86009896D4 /* MoviesViewController.swift */; };
+		520ED2E71B4B6F93009896D4 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520ED2E61B4B6F93009896D4 /* MovieDetailViewController.swift */; };
+		520ED2E91B4B7029009896D4 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520ED2E81B4B7029009896D4 /* APIManager.swift */; };
+		520ED2EC1B4B75B0009896D4 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520ED2EB1B4B75B0009896D4 /* MovieModel.swift */; };
+		520ED2EE1B4B7F02009896D4 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520ED2ED1B4B7F02009896D4 /* MovieTableViewCell.swift */; };
+		520ED2F01B4B812B009896D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520ED2EF1B4B812B009896D4 /* CoreGraphics.framework */; };
+		520ED2F21B4B83BA009896D4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 520ED2F11B4B83BA009896D4 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +33,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1268E40AD91E96C5506D9169 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		42E51C3A05CE11726404B5D5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		520ED2BD1B4B69C7009896D4 /* Whats Beef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whats Beef.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		520ED2C11B4B69C7009896D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		520ED2C21B4B69C7009896D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		520ED2C41B4B69C7009896D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		520ED2C71B4B69C7009896D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		520ED2C91B4B69C7009896D4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		520ED2CC1B4B69C7009896D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		520ED2D21B4B69C7009896D4 /* Whats BeefTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Whats BeefTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		520ED2D71B4B69C7009896D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		520ED2D81B4B69C7009896D4 /* Whats_BeefTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whats_BeefTests.swift; sourceTree = "<group>"; };
+		520ED2E41B4B6F86009896D4 /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		520ED2E61B4B6F93009896D4 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		520ED2E81B4B7029009896D4 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		520ED2EA1B4B708E009896D4 /* Whats-Beef-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Whats-Beef-Bridging-Header.h"; sourceTree = "<group>"; };
+		520ED2EB1B4B75B0009896D4 /* MovieModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		520ED2ED1B4B7F02009896D4 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		520ED2EF1B4B812B009896D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		520ED2F11B4B83BA009896D4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		759B6D9973319B06953007D7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				520ED2F01B4B812B009896D4 /* CoreGraphics.framework in Frameworks */,
+				2CFD8133F960CDD59171CA7E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +75,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DA6BCE96E118542DF19A36F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1268E40AD91E96C5506D9169 /* Pods.debug.xcconfig */,
+				42E51C3A05CE11726404B5D5 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		520ED2B41B4B69C6009896D4 = {
 			isa = PBXGroup;
 			children = (
 				520ED2BF1B4B69C7009896D4 /* Whats Beef */,
 				520ED2D51B4B69C7009896D4 /* Whats BeefTests */,
 				520ED2BE1B4B69C7009896D4 /* Products */,
+				3DA6BCE96E118542DF19A36F /* Pods */,
+				553AD84E411C299F46A6711B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +107,17 @@
 		520ED2BF1B4B69C7009896D4 /* Whats Beef */ = {
 			isa = PBXGroup;
 			children = (
+				520ED2E81B4B7029009896D4 /* APIManager.swift */,
 				520ED2C21B4B69C7009896D4 /* AppDelegate.swift */,
+				520ED2E61B4B6F93009896D4 /* MovieDetailViewController.swift */,
+				520ED2EB1B4B75B0009896D4 /* MovieModel.swift */,
+				520ED2E41B4B6F86009896D4 /* MoviesViewController.swift */,
 				520ED2C41B4B69C7009896D4 /* ViewController.swift */,
-				520ED2C61B4B69C7009896D4 /* Main.storyboard */,
-				520ED2C91B4B69C7009896D4 /* Images.xcassets */,
 				520ED2CB1B4B69C7009896D4 /* LaunchScreen.xib */,
+				520ED2C61B4B69C7009896D4 /* Main.storyboard */,
 				520ED2C01B4B69C7009896D4 /* Supporting Files */,
+				520ED2ED1B4B7F02009896D4 /* MovieTableViewCell.swift */,
+				520ED2F11B4B83BA009896D4 /* Images.xcassets */,
 			);
 			path = "Whats Beef";
 			sourceTree = "<group>";
@@ -91,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				520ED2C11B4B69C7009896D4 /* Info.plist */,
+				520ED2EA1B4B708E009896D4 /* Whats-Beef-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -112,6 +148,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		553AD84E411C299F46A6711B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				520ED2EF1B4B812B009896D4 /* CoreGraphics.framework */,
+				759B6D9973319B06953007D7 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +164,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 520ED2DC1B4B69C7009896D4 /* Build configuration list for PBXNativeTarget "Whats Beef" */;
 			buildPhases = (
+				D20ED7CC09790A4CA7B673C9 /* Check Pods Manifest.lock */,
 				520ED2B91B4B69C6009896D4 /* Sources */,
 				520ED2BA1B4B69C6009896D4 /* Frameworks */,
 				520ED2BB1B4B69C6009896D4 /* Resources */,
+				4737D79F50236698EE0DE449 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,9 +239,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				520ED2F21B4B83BA009896D4 /* Images.xcassets in Resources */,
 				520ED2C81B4B69C7009896D4 /* Main.storyboard in Resources */,
 				520ED2CD1B4B69C7009896D4 /* LaunchScreen.xib in Resources */,
-				520ED2CA1B4B69C7009896D4 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,13 +254,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4737D79F50236698EE0DE449 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D20ED7CC09790A4CA7B673C9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		520ED2B91B4B69C6009896D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				520ED2EC1B4B75B0009896D4 /* MovieModel.swift in Sources */,
+				520ED2E71B4B6F93009896D4 /* MovieDetailViewController.swift in Sources */,
+				520ED2EE1B4B7F02009896D4 /* MovieTableViewCell.swift in Sources */,
 				520ED2C51B4B69C7009896D4 /* ViewController.swift in Sources */,
+				520ED2E91B4B7029009896D4 /* APIManager.swift in Sources */,
 				520ED2C31B4B69C7009896D4 /* AppDelegate.swift in Sources */,
+				520ED2E51B4B6F86009896D4 /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,21 +423,25 @@
 		};
 		520ED2DD1B4B69C7009896D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1268E40AD91E96C5506D9169 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Whats Beef/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Whats Beef/Whats-Beef-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		520ED2DE1B4B69C7009896D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42E51C3A05CE11726404B5D5 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Whats Beef/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Whats Beef/Whats-Beef-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +498,7 @@
 				520ED2DE1B4B69C7009896D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		520ED2DF1B4B69C7009896D4 /* Build configuration list for PBXNativeTarget "Whats BeefTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +507,7 @@
 				520ED2E11B4B69C7009896D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
