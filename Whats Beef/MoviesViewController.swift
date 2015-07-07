@@ -20,9 +20,9 @@ class MoviesViewController: UITableViewController {
         // Do any additional setup after loading the view.
         self.title = "My Movies"
         self.tableView.addInfiniteScrollingWithActionHandler { () -> Void in
-            self.getMovies(self.pageCounter + 1)
+            self.getMovies(self.pageCounter)
         }
-        self.getMovies(self.pageCounter)
+        self.tableView.triggerInfiniteScrolling()
     }
     
     func getMovies(page: Int) {
